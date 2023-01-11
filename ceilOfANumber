@@ -1,9 +1,10 @@
 import java.util.*;
+//Find the Ceil
+//Ceil value of a real number X is the smallest integer value that is greater than or equal to X
 class Main {
 	public static int solve(int A) {
         double ans= A/200d;
         int x = (int)ans; // Type casting double to integer and storing the value int the x
-        double z = -1;
         if(ans == x){
             return x;
         }
@@ -11,8 +12,7 @@ class Main {
             return x+1;
         }
         else{
-           
-           return x; 
+            return x; 
         }
     }
 	public static void main(String args[]) {
